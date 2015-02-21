@@ -1,1 +1,16 @@
 /* Empty. Add your own CSS if you like */
+body{ color: #848482; }
+.dash-container{ display: flex; flex-direction: column; height: 100%; }
+.dash-container > .row{ flex: 1; }
+
+.dash-fixed-header{ max-height: 222px; }
+	.dash-header-wrapper{ position: relative; padding: 0 10px; box-sizing: border-box; height: 200px;  }
+		#dash-clock-wrapper{ height: 200px; width: 200px; box-sizing: border-box; padding: 10px; float: left; background: #FF8800; }
+		.dash-header-inner-wrapper{ border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+		#dash-app-actions{ height: 200px; padding: 10px; padding-left: 200px; box-sizing: border-box;  }
+			#dash-app-actions-links{ text-align: right; margin-top: 15px; }
+				#dash-app-actions-links .app-links{ font-size: 30px; padding: 0 10px; }
+			
+.dash-main-container{ /* position: absolute; top: 200px; height: 75%; */  left: 0;  width: 100%; }
+.scrollview{ max-height: 100%; }
+.app-links{ color: #848482; }
